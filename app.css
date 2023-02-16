@@ -3,6 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background-color: blue;
+    color: white;
+    margin-bottom: 3rem;
+}
+nav ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.movie{
+    cursor: pointer;
+}
+.movie .movie-img-wrapper{
+    height: 300px;
+    width: 200px;
+}
+.movie-holder{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.unavailable-seat{
+    background-color: red;
+    cursor: no-drop;
+}
+.available-seat,.unavailable-seat{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.selected-seat{
+    border: 4px outset rgb(0, 0, 0);
+}
+#booker-grid-holder{
+    display: flex;
+    width: 60vw;
+    margin: 2rem auto;
+    justify-content: space-between;
+}
+
 
 
 
