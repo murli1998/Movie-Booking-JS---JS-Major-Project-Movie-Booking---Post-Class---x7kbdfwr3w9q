@@ -3,7 +3,7 @@ import {fetchMovieAvailability,fetchMovieList} from "./api.js"
 let movies = []
 let selectedMovie = null
 let unavailableSeats =[]
-let selectedSeats 
+let selectedSeats =[]
 const loaderEle = document.getElementById("loader")
 
 function showMovies(){
